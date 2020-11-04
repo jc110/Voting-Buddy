@@ -1,43 +1,11 @@
-
-SMART GOVERNANCE is the most complete enterprise governance management solution for decision-making ecosystems, supporting your chain of command decision-making processes, including the power of authority conditional rules, and multiple boards, committee, council, and assembly meetings, allowing for greater agility in the decision-making process while eliminating the physical paper clutter (or the email nightmare) and its logistics, time and resource consumption.
-
-Inspiration
-I wanted to make digital tools during a pandemic for our citizens. Tools should help them to take the correct decisions and they should finish the voting process easier.
-
-What it does
-It provides resources for election, a digital tool, and a digital ballot system for voting
-
-Voting Buddy Summary of Functionality
-Contact e-mail Contact by Form Voting Buddy Features Office of the Clerk, U.S. House of Representatives Congress Information Bibliography for Candidate
-
-1.Resources-
-Office of the Clerk, U.S. House of Representatives Resources
-
-Daily Legislative Schedule Weekly Legislative Schedule Roll Call Votes Live Floor Proceedings Discharge Petitions Congressional Record House Journal Congressional Calendars How Our Laws Are Made Congressional Research Reports Legislative Process Videos Congress Profiles Electoral College FAQs Legislative FAQs
-
-2.Digital tools- Helping citizens to plan ballot-Digital tool to help to fill up Ballot-
-Guide lines and tools for Ballot
----------------------------------
-1 See your ballot. Dive into nonpartisan info on every candidate and ballot measure on your personal ballot.
-
-2 Rally friends. Activate and engage others with a BallotParty or become a SuperVoter.
-
-3 Make a plan. Vote safe and informed by making a plan to vote in person or by mail.
-
-4 Vote! Keep your ballot in-hand for voting at the polls or at your kitchen counter.
-
-3. Digital System resources for Voting
-Results of the democratic and republican votes that were cast on the bill
-
-This API will provide information on bills that passed through the house and the results of the democratic and republican votes that were cast on the bill
-
-Step by step guidance how to use API.
-Welcome to ProPublica's API Key:
-76LtvQr5VNrRXEGLhfO5Npw1DrGTZx5Ed0gbBoze
-
+Welcome to ProPublica's APIs, Jigna Jain
+You have successfully signed up for a ProPublica API key your key is: 76LtvQr5VNrRXEGLhfO5Npw1DrGTZx5Ed0gbBoze
+Your account is authorized for the following APIs:
 
 Congress
-The ProPublica Congress API Used for this project.
+The ProPublica Congress API has its own user group. You can join at https://groups.google.com/a/propublica.org/d/forum/congressapihelp.
+
+Run into any trouble? Contact apihelp@propublica.org
 
 Propublica api
 https://projects.propublica.org/api-docs/congress-api/#overview
