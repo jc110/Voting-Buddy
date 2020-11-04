@@ -60,26 +60,48 @@ This API will provide information on bills that passed through the house and the
 The ProPublica Congress API has been used for this project.
 
 HOW TO USE POSTMAN
+--------------------------------------
 Go to Postman.com and create a free account
+
 Install the PostMan agent on your computer
+
 HOW TO USE API
 Test the API in postman, if it doesn't work in postman, it will not work for your website
+
 Create your page and create the script for that page
+
 Link in the jQuery script in the header of your page: <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 Link in your own script page to the html page
+
 Decide in which format you want to display the information you get from the API (next steps are based on using a table)
+
 Create a table, give it an "id", and style it so it looks like you want it to looks (<table>)
+  
 Create the top row of the table which is basically the header (<tr>)
+  
 In the top row (header) create each of the cells you want (<th>) and give it some text as a header description. Note: remeber to change the width of each cell accordingly and all rows below will follow the same width
+  
 Determine when you want to get the data from the API, going forward, the example is based on if you want to get the data from the API when the page first loads
+
 In your script file that you created, create the window.onload event with an empty function (window.onload=function(){})
+
 go back to postman, on the request that you tested successfully, in the right hand top corner click the "code" link and select "JavaScript - jQuery"
+
 Copy the code that postman gives you and paste this in the funbction in the script that you created
+
 Now to test, open your page, open the console and make sure the data from the API is in your console.
+
 Replace the console.log(response) code in the done section of the code you coped from postman with the code to put the data from the API in your table:
+
 Assign the result of document.getElementById("your table id here") to a variable. This will get your table form the HTML and assign it to the variable so that you can add rows and columns to it using the variable
+
 Now create a for loop that loops through the results form the API
+
 Now for each row, assign that rows actual value to a variable using the variable in the for loop as an index
+
 Now insert a new row into your table using the table variable you created .insertRow(). Remember to specify an index as a parameter in the .insertRow function. Hardcoding this index to 1 will always put the new rows at the top of the table below the header. If you always want to add the new row to the bottom, specify the index as your table variable .rows.length. Rememgebr to assign the result of the insertRow function to a new variable, this variable will hold the new row that you added and you'll need this to add the new columns to this new row
+
 For each of the columns you need to add to the new row, call the .insertCell() function on your new row variable and give it the correct index. Make sure this is also assigned to a variable since you'll need that variable to set the value of the column
+
 Lastly, use the columns variables .innerHTML to assign the values from the API
