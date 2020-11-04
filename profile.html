@@ -1,16 +1,27 @@
+<!DOCTYPE html>
+<html>
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<!-- ^ the viewport meta tag is to make your webpage responsive according to screen size -->
-	<title>Vote Buddy</title>
+	<title>Voting Buddy</title>
 	<!-- ^ your webpage's title -->
 	<link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 	<!-- ^ where we link our CSS file to our webpage -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="profile.js"></script>
 </head>
- 	<div class="card" style ="width:1185px; height:700px">
-       <img style = "float:left; padding-left:100px"
-       src="https://res.cloudinary.com/next-inventor/image/upload/v1604376041/Election5_qzmfls.jpg" alt="" width="250" Hight="250">
-       
-	
+<body>
+  <h1> Results of the democratic and republican votes that were casted on the bill</h1>
+	<table id="votingTable" width="100%" style="color: white; border: 1px solid white">
+		<tr style="font-weight: bold; font-size: 25px">
+			<th style="width: 50%">Topic</th>
+			<th>Result</th>
+			<th>Democtatic</th>
+			<th>Republican</th>
+			<th>Total</th>
+		</tr>
+	</table>
+</body>
